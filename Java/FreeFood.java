@@ -14,7 +14,7 @@ public class FreeFood {
             int a = scanner.nextInt();
             int b = scanner.nextInt();
 
-            for (int j=a; j<=b; j++) { //Here, adds all numbers from a up to (including) b
+            for (int j=a; j<=b; j++) { 
                 daysFree.add(j);
             }
           }
