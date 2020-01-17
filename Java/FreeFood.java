@@ -14,11 +14,11 @@ public class FreeFood {
             int a = scanner.nextInt();
             int b = scanner.nextInt();
 
-            for (int j=a; j<=b; j++) { 
+            for (int j=a; j<=b; j++) {
                 daysFree.add(j);
             }
           }
 
-      System.out.println("daysFree.size()" + daysFree.size());
+      System.out.println(daysFree.size());
   }
 }
